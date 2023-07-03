@@ -1,0 +1,19 @@
+
+
+Flask-2
+Assignment Questions 
+Assignment 
+Q1. Explain GET and POST methods. 
+GET Method: The GET method is used to retrieve data from a server. When a client sends a GET request, it is asking the server to send back a representation of a specific resource. The parameters and data associated with the request are usually sent in the URL as query parameters. This method is considered "safe" as it does not modify any data on the server.
+The POST method is used to submit data to the server to create or update a resource. When a client sends a POST request, it includes the data in the body of the request rather than in the URL. This method is commonly used for form submissions, file uploads, and any other requests that involve sending data to the server.
+
+Q2. Why is request used in Flask? 
+In Flask, the request object is used to access incoming HTTP requests made by clients to the Flask application. It provides a way to interact with and extract data from the request, such as form data, query parameters, headers, and cookies. The request object plays a crucial role in building dynamic web applications by allowing the application to process and respond to client requests effectively.
+Q3. Why is redirect() used in Flask? 
+In Flask, the redirect() function is used to perform a redirect to a different URL or route within the application. It allows developers to redirect the user's browser to a different page or route, either within the same Flask application or to an external URL.
+Q4. What are templates in Flask? Why is the render_template() function used? 
+In Flask, templates are files that contain HTML, CSS, and other dynamic elements to generate dynamic web pages. Templates are used to separate the presentation logic from the application logic, allowing developers to create reusable and customizable views for their web applications. The render_template() function is used to render these templates and generate the final HTML output to be sent to the client's browser.
+
+Q5. Create a simple API. Use Postman to test it. Attach the screenshot of the output in the Jupyter Notebook.
+Note:  Create your assignment in Jupyter notebook and upload it to GitHub & share that GitHub repository   link through your dashboard. Make sure the repository is public. 
+Data Science Masters 
